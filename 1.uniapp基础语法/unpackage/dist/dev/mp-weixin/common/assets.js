@@ -1,0 +1,17 @@
+"use strict";
+const _imports_0 = "/static/1.jpg";
+const _imports_1 = "/static/2.jpg";
+const _imports_2 = "/static/3.jpg";
+const _imports_3 = "/static/4.jpg";
+const _imports_4 = "/static/h1.jpg";
+const _imports_5 = "/static/h2.jpg";
+const _imports_6 = "/static/m1.jpg";
+const _imports_7 = "/static/m2.jpg";
+exports._imports_0 = _imports_0;
+exports._imports_1 = _imports_1;
+exports._imports_2 = _imports_2;
+exports._imports_3 = _imports_3;
+exports._imports_4 = _imports_4;
+exports._imports_5 = _imports_5;
+exports._imports_6 = _imports_6;
+exports._imports_7 = _imports_7;
