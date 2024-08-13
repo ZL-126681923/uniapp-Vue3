@@ -17,6 +17,8 @@ ref,v-bind,reactive,@cliick(自定义事件)
 			<switch  @change="changeloding" />
 			<button type="primary" :loading="lod">登录</button>
 			<navigator url="/pages/demo1/demo1">跳转到demo1</navigator>
+			<navigator url='/pages/shopping/shopping'>跳转到shopping</navigator>
+			<navigator url='/pages/shopping/input'>跳转到input</navigator>
 		</view>
 	</view>
 </template>

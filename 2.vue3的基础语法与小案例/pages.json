@@ -13,6 +13,27 @@
 			{
 				"navigationBarTitleText" : "demo1"
 			}
+		},
+		{
+			"path" : "pages/shopping/shopping",
+			"style" : 
+			{
+				"navigationBarTitleText" : "购物车小案例"
+			}
+		},
+		{
+			"path" : "pages/shopping/input",
+			"style" : 
+			{
+				"navigationBarTitleText" : "input事件"
+			}
+		},
+		{
+			"path" : "pages/shopping/joker",
+			"style" : 
+			{
+				"navigationBarTitleText" : "网络热梗"
+			}
 		}
 	],
 	"globalStyle": {
