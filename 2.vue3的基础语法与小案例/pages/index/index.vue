@@ -16,9 +16,11 @@ ref,v-bind,reactive,@cliick(自定义事件)
 			</view>
 			<switch  @change="changeloding" />
 			<button type="primary" :loading="lod">登录</button>
-			<navigator url="/pages/demo1/demo1">跳转到demo1</navigator>
-			<navigator url='/pages/shopping/shopping'>跳转到shopping</navigator>
-			<navigator url='/pages/shopping/input'>跳转到input</navigator>
+			<navigator class='nav' url="/pages/demo1/demo1">跳转到demo1</navigator>
+			<navigator class='nav' url='/pages/shopping/shopping'>跳转到shopping</navigator>
+			<navigator class='nav' url='/pages/shopping/input'>跳转到input</navigator>
+			<navigator class='nav' url='/pages/shopping/joker'>跳转到热梗案例</navigator>
+			<navigator class='nav' url='/pages/shopping/joker'>跳转到热梗案例</navigator>
 		</view>
 	</view>
 </template>
@@ -46,7 +48,16 @@ import { reactive,ref } from 'vue';
 	}
 </script>
 
-<style lang="scss">
+<style lang="scss">	
+	.nav{
+		width: 60%;
+		margin: 0 auto;
+		margin-top: 10px;
+		padding: 5px 0px;
+		text-align: center;
+		background-color: #ccc;
+	}
+		
 	.changebox{
 		width: 200px;
 		height: 200px;
