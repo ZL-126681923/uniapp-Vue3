@@ -1,0 +1,73 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path" : "components/my-header/my-header",
+			"style" : 
+			{
+				"navigationBarTitleText" : "组件的使用"
+			}
+		},
+		{
+			"path" : "components/my-layout/my-layout",
+			"style" : 
+			{
+				"navigationBarTitleText" : "布局组件"
+			}
+		},
+		{
+			"path" : "components/my-life/my-life",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/index/demo1",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/index/demo2",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/life-test/life-test",
+			"style" : 
+			{
+				"navigationBarTitleText" : "生命周期"
+			}
+		},
+		{
+			"path" : "pages/defineExpose/defineExpose",
+			"style" : 
+			{
+				"navigationBarTitleText" : "子组件向外暴露"
+			}
+		},
+		{
+			"path" : "pages/onLoad/onLoad",
+			"style" : 
+			{
+				"navigationBarTitleText" : "页面生命周期"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}
