@@ -1,0 +1,1 @@
+<view class=""><button bindtap="{{a}}">删除一个</button><button bindtap="{{b}}" type="warn">删除所有缓存</button></view>

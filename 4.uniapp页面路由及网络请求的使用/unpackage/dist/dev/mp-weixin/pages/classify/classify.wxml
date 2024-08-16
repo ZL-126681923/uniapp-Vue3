@@ -1,0 +1,1 @@
+<view class=""> 分类页面 <button bindtap="{{a}}">点击我吧</button><view>---</view><button bindtap="{{b}}">学历</button><text>我是{{c}}</text></view>

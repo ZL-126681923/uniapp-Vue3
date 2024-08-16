@@ -1,0 +1,1 @@
+<view class=""><text>demo2页面</text><view></view><text>我的名字叫:{{a}}我今年{{b}}岁,我喜欢{{c}}</text><button bindtap="{{d}}">返回上一页</button></view>

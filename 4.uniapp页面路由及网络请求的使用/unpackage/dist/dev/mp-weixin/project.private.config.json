@@ -1,0 +1,33 @@
+{
+	"description": "项目私有配置文件。此文件中的内容将覆盖 project.config.json 中的相同字段。项目的改动优先同步到此文件中。详见文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/projectconfig.html",
+	"projectname": "4.uniapp%E9%A1%B5%E9%9D%A2%E8%B7%AF%E7%94%B1%E5%8F%8A%E7%BD%91%E7%BB%9C%E8%AF%B7%E6%B1%82%E7%9A%84%E4%BD%BF%E7%94%A8",
+	"setting": {
+		"compileHotReLoad": true
+	},
+	"condition": {
+		"miniprogram": {
+			"list": [
+				{
+					"name": "pages/demo/demo",
+					"pathName": "pages/demo/demo",
+					"query": "",
+					"launchMode": "default",
+					"scene": null
+				},
+				{
+					"name": "pages/index/index",
+					"pathName": "pages/index/index",
+					"query": "",
+					"launchMode": "default",
+					"scene": null,
+					"partialCompile": {
+						"enabled": false,
+						"pages": [
+							"pages/demo/demo"
+						]
+					}
+				}
+			]
+		}
+	}
+}

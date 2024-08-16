@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/user/user",
+    "pages/classify/classify",
+    "pages/demo/demo",
+    "pages/demo2/demo2",
+    "pages/demo3/demo3",
+    "pages/demo4/demo4",
+    "pages/demo5/demo5",
+    "pages/requestDemo/requestDemo"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#2B9939",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "咸虾米",
+    "backgroundColor": "#ccc",
+    "backgroundTextStyle": "light",
+    "onReachBottomDistance": 50
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#2B9939",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/images/tabBar/home.png",
+        "selectedIconPath": "static/images/tabBar/home-h.png"
+      },
+      {
+        "pagePath": "pages/classify/classify",
+        "text": "分类",
+        "iconPath": "static/images/tabBar/classify.png",
+        "selectedIconPath": "static/images/tabBar/classify-h.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "static/images/tabBar/user.png",
+        "selectedIconPath": "static/images/tabBar/user-h.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

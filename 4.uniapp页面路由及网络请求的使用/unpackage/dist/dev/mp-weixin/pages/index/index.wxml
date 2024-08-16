@@ -1,0 +1,1 @@
+<view class="content"><navigator open-type="reLaunch" url="/pages/user/user">点击跳转到用户</navigator><button bindtap="{{a}}">显示加载</button><button bindtap="{{b}}">隐藏加载</button><button bindtap="{{c}}">停止下拉刷新</button><image class="logo" src="{{d}}"></image><view wx:for="{{e}}" wx:for-item="item" class="">{{item.a}}</view></view>
