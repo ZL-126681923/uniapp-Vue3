@@ -3,8 +3,10 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "壁纸案例"
-			}
+				"navigationBarTitleText": "壁纸案例",
+				"enablePullDownRefresh" : true,
+				 "pullToRefresh":true
+					}
 		}
 	],
 	"globalStyle": {
